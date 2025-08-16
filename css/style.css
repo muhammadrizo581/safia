@@ -523,12 +523,11 @@ textarea {
 .footers__footer{
   display: flex;
   justify-content: space-between;
-  
+  padding: 15px;
 }
 .footers__footer p{
   font-size: 16px;
-  color: white;
-  
+  color: white; 
 }
 
 /* Footer end  */
