@@ -1,0 +1,429 @@
+
+
+
+/* HEADER start */
+
+.header {
+  color: black;
+  position: sticky;
+  width: 100%;
+  z-index: 50;
+  transition: 0.5s;
+}
+
+
+.header.shrink {
+  background: black;
+}
+.navbar {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar__logo span {
+  font-size: 18px;
+  transition: 0.3s;
+}
+.navbar__logo img {
+  width: 56px;
+}
+.navbar__logo span:hover {
+  color: #cca773;
+  cursor: pointer;
+}
+
+.navbar__lists {
+  display: flex;
+  gap: 20px;
+}
+.navbar__link {
+  font-weight: 500;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.navbar__link:hover {
+  color: #cca773;
+}
+
+.navbar__options {
+  display: flex;
+  gap: 20px;
+}
+.navbar__options select {
+  background: transparent;
+  color: black;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+.navbar__options select:hover {
+  cursor: pointer;
+  color: #cca773;
+}
+
+.navbar__options a {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar__options i {
+  font-size: 20px;
+}
+
+/* HEADER end */
+
+
+
+/* HERO start */
+
+.hero {
+  width: 100%;
+  
+  position: relative;
+}
+.hero__wrapper{
+    width: 100%;
+    height: 50vh;
+}
+.hero__wrapper::before {
+  content: "";
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.700));
+}
+.hero__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero h1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* HERO end */
+
+
+/* Our-history star  */
+
+
+
+
+.history{
+    margin: 60px 0;
+}
+.pages{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+.pages a{
+    color: black;
+}
+.pages a:hover{
+    text-decoration: underline;
+}
+.pages p:nth-child(2){
+    color: rgb(222,199,148);
+}
+.pages p:nth-child(3){
+    color:gray;
+}
+.our-history{
+    display: flex;
+    width: 100%;
+    margin: 100px 0;
+}
+.our-history__body{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.our-history__body h2{
+    text-align: left;
+    font-weight: 700;
+}
+
+.text p{
+    font-size: 18px;
+}
+.history__btn{
+    margin-top: 50px;
+    width: 150px;
+    height: 70px;
+    background-color: rgb(220,195,139);
+    color: white;
+    font-size: 30px;
+    border-radius: 200px;
+}
+
+.our-history__img{
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+}
+.our-history__img img{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.our-history__img span{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(220,195,139);
+    color: white;
+    font-size: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 15%;
+    box-sizing: content-box;
+    border: 8px solid white;
+}
+
+
+
+
+/* Our-history end  */
+
+
+
+
+
+/* Our-achievements  start*/
+
+
+.achievement{
+    margin: 60px 0;
+}
+.our-achievement{
+    display: flex;
+    width: 100%;
+    margin: 100px 0;
+}
+.our-achievement__body{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: right;
+}
+
+.our-achievement__body h2{
+    text-align: right;
+    font-weight: 700;
+}
+
+.text p{
+    font-size: 18px;
+}
+.achievement__btn{
+    margin-top: 50px;
+    width: 150px;
+    height: 70px;
+    background-color: rgb(220,195,139);
+    color: white;
+    font-size: 30px;
+    border-radius: 200px;
+}
+
+.our-achievement__img{
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+}
+.our-achievement__img img{
+    margin: 0 auto;
+}
+.our-achievement__img span{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(220,195,139);
+    color: white;
+    font-size: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15%;
+    right: 15%;
+    box-sizing: content-box;
+    border: 8px solid white;
+}
+
+
+
+/* Our-achievements  end*/
+
+
+/* Safia store start  */
+
+
+.store{
+    margin: 60px 0;
+}
+.store{
+    display: flex;
+    width: 100%;
+    margin: 100px 0;
+}
+.store__body{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.store__body h2{
+    text-align: left;
+    font-weight: 700;
+}
+
+.text p{
+    font-size: 18px;
+}
+.store__btn{
+    margin-top: 50px;
+    width: 150px;
+    height: 70px;
+    background-color: rgb(220,195,139);
+    color: white;
+    font-size: 30px;
+    border-radius: 200px;
+}
+
+.store__img{
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+}
+.store__img img{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.store__img span{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(220,195,139);
+    color: white;
+    font-size: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 14%;
+    left: 14%;
+    box-sizing: content-box;
+    border: 8px solid white;
+}
+
+
+
+
+/* Safia store end  */
+
+
+
+
+
+/* Footer start  */
+
+
+
+.footer{
+  margin-top: 100px;
+  background-color: rgb(46,34,37);
+  height: 350px;
+  width: 100%;
+  height: 104%;
+}
+.footer__card__wrapper{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 38px;
+}
+.card__image img{
+  width: 140px;
+  height: 140px;
+}
+.footer__title{
+  color: white;
+}
+.footer__card ul li{
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+}
+.footer__card:nth-child(4){
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 20px;
+}
+.logos{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.logos img{
+  width: 30px;
+  height: 30px;
+}
+.footer__card strong{
+  font-size: 32px;
+  color: white;
+}
+.stores{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.stores img{
+  width: 100px;
+  border-radius: 5px;
+}
+.footers__footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.footers__footer p{
+  font-size: 16px;
+  color: white; 
+}
+
+/* Footer end  */
